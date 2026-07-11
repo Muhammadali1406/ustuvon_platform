@@ -550,21 +550,39 @@ const frontendQuestions = [
     }
 ];
 
-export default frontendQuestions;
 
-bot.start((ctx) => {
-    const userId = ctx.from.id;
-    users[userId] = { step: 1, data: {} };
-    ctx.reply("🖐️ Assalomu Alaykum!\n\nAgar testga tayyor bo'lsangiz, pastdagi tugmani bosing:");
-    ctx.reply("Testni boshlash", Markup.inlineKeyboard([
-        Markup.button.callback("Testni boshlash", "start_test"),
-    ]));
+bot.start((ctx)=>{
 
+    const userId=ctx.from.id;
 
-    bot.action("start_test", (ctx) => {
-        ctx.reply("📋 Test boshlandi✅\n\n1-savol: " + frontendQuestions[0].question + "\n\n" + frontendQuestions[0].options.map((option, index) => `${index + 1}. ${option}`).join("\n"));
-        users[userId].step = 2;
-    });
+    users[userId]={
+        currentQuestion:0,
+        score:0
+    };
+
+    ctx.reply(
+        "🖐️ Assalomu alaykum",
+        Markup.inlineKeyboard([
+            [Markup.button.callback("🚀 Testni boshlash","start_test")]
+        ])
+    );
+
+});
+
+bot.action("start_test",(ctx)=>{
+
+    const userId=ctx.from.id;
+
+    const q=frontendQuestions[0];
+
+    ctx.reply(
+`${q.question}
+
+${q.options
+.map((o,i)=>`${i+1}. ${o}`)
+.join("\n")}`
+    );
+
 });
 
 bot.launch();
