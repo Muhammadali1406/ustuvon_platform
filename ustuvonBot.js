@@ -25,6 +25,11 @@ const users = [
     profession: "fullstack"
   },
   {
+    id: 8396840695,
+    name: "Janob boshliq",
+    profession: "fullstack"
+  },
+  {
     id: 8393769853,
     name: "Boboxonov Javohir",
     profession: "backend"

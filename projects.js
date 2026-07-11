@@ -65,6 +65,24 @@ const projects = {
         }
     ],
 
+    fullstack: [
+        {
+            title: "Online kurs platformasi",
+            text:
+                `Talablar:
+
+✅ React yoki Next.js ishlatilsin
+✅ Login/Register
+✅ Kurslar sahifasi
+✅ API bilan ishlash
+✅ Responsive dizayn
+✅ Backend: Node.js + Express + Database
+✅ JWT Authentication
+✅ CRUD API
+✅ Telegram bot bilan integratsiya`
+        }
+    ],
+
 
     designer: [
         {
