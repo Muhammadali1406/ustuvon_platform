@@ -9,18 +9,72 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 // Nomzodlar
 
 const users = [
-    {
-        id: 8396840695,
-        name: "John Doe",
-        profession: "frontend"
-    },
-    {
-        id: 8099181223,
-        name: "John Doe",
-        profession: "backend"
-    }
+  {
+    id: 5259707725,
+    name: "Abdulaziz Komiljonov",
+    profession: "backend"
+  },
+  {
+    id: 6690920445,
+    name: "Muhammadjon Mashrabov",
+    profession: "frontend"
+  },
+  {
+    id: 1306147337,
+    name: "Farrux To'g'onov",
+    profession: "fullstack"
+  },
+  {
+    id: 8393769853,
+    name: "Boboxonov Javohir",
+    profession: "backend"
+  },
+  {
+    id: 1417999336,
+    name: "Muslimbek Bostonov",
+    profession: "frontend"
+  },
+  {
+    id: 6134458285,
+    name: "Davronbek Nabijonov",
+    profession: "frontend"
+  },
+  {
+    id: 2035940312,
+    name: "Fozilov Muzaffar",
+    profession: "designer"
+  },
+  {
+    id: 1771891844,
+    name: "Oqilbek Erkinov",
+    profession: "fullstack"
+  },
+  {
+    id: 6917684084,
+    name: "Qodirov Biloliddin",
+    profession: "backend"
+  },
+  {
+    id: 8270492933,
+    name: "Yuldoshev Sirojiddin",
+    profession: "backend"
+  },
+  {
+    id: 5817905119,
+    name: "Samandar Qodirov",
+    profession: "frontend"
+  },
+  {
+    id: 6466116037,
+    name: "Dilshod Mahmudov",
+    profession: "fullstack"
+  },
+  {
+    id: 6461443178,
+    name: "Davronbek Nazarov",
+    profession: "backend"
+  }
 ];
-
 
 // Admin tekshirish
 
