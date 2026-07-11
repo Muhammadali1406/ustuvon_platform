@@ -41,6 +41,13 @@ Markup.inlineKeyboard([
     )
 ]);
 
+bot.start((ctx) => {
+
+    ctx.reply(
+        "Bot ishlamoqda ✅"
+    );
+
+});
 // loyiha yuborish
 
 bot.command("send_projects", async (ctx) => {
@@ -57,12 +64,12 @@ bot.command("send_projects", async (ctx) => {
 
         let list = projects[user.profession];
 
-
+        
         if (!list) {
             continue;
         }
 
-
+        
 
         let project =
             list[
@@ -147,13 +154,6 @@ Omad! 🔥
 
 
 
-bot.start((ctx) => {
-
-    ctx.reply(
-        "Bot ishlamoqda ✅"
-    );
-
-});
 
 
 
