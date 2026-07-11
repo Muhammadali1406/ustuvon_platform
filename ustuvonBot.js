@@ -1,5 +1,7 @@
 require("dotenv").config();
 
+import Markup from "telegraf/markup";
+
 const { Telegraf, Markup } = require("telegraf");
 
 const projects = require("./projects");
@@ -36,10 +38,7 @@ function isAdmin(ctx) {
 }
 
 Markup.inlineKeyboard([
-    "loiyha yuborish",
-    Markup.button.callback(
-        "Loyihani yuborish",
-        "send_projects"
+    Markup.button.callback("Send Projects", "send_projects"
     )
 ]);
 
