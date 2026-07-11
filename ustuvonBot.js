@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-const { Telegraf } = require("telegraf");
+const { Telegraf, Markup } = require("telegraf");
 
 const projects = require("./projects");
 
@@ -35,7 +35,13 @@ function isAdmin(ctx) {
 
 }
 
-
+Markup.inlineKeyboard([
+    "loiyha yuborish",
+    Markup.button.callback(
+        "Loyihani yuborish",
+        "send_projects"
+    )
+]);
 
 // loyiha yuborish
 
