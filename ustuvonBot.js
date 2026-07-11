@@ -36,17 +36,17 @@ function isAdmin(ctx) {
 
 }
 
-Markup.inlineKeyboard([
-    Markup.button.callback("Send Projects", "send_projects"
-    )
-]);
 
 bot.start((ctx) => {
-
+    
     ctx.reply(
         "Bot ishlamoqda ✅"
     );
-
+    
+    Markup.inlineKeyboard([
+        Markup.button.callback("Send Projects", "send_projects"
+        )
+    ]);
 });
 // loyiha yuborish
 
