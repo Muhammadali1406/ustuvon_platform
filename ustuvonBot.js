@@ -11,6 +11,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 const users = [
     //{id: 8393769853,name: "Boboxonov Javohir",profession: "backend"},
     {id: 8396840695,name: "Janob boshliq",profession: "fullstack", type: "offline"},
+    {id: 8251893506,name: "Janob boshbori",profession: "fullstack", type: "online"},
     //{ id: 6917684084, name: "Qodirov Biloliddin", profession: "backend" },
     
 ];
