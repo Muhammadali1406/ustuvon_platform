@@ -9,76 +9,21 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 // Nomzodlar
 
 const users = [
-    //{id: 8393769853,name: "Boboxonov Javohir",profession: "backend"},
-    {id: 8396840695,name: "Janob boshliq",profession: "fullstack", type: "offline"},
-    {id: 8251893506,name: "Janob boshbori",profession: "fullstack", type: "online"},
-    //{ id: 6917684084, name: "Qodirov Biloliddin", profession: "backend" },
-    {
-        id: 1417999336,
-        name: "Muslimbek Bostonov",
-        profession: "frontend",
-        type: "offline"
-    },
-    {
-        id: 6461443178,
-        name: "Davronbek Nazarov",
-        profession: "backend",
-        type: "offline"
-    },
-    {
-        id: 5259707725,
-        name: "Abdulaziz Komiljonov",
-        profession: "backend",
-        type: "online"
-    },
-    {
-        id: 8270492933,
-        name: "Yuldoshev Sirojiddin",
-        profession: "backend",
-        type: "online"
-    },
-    {
-        id: 5817905119,
-        name: "Samandar Qodirov",
-        profession: "frontend",
-        type: "online"
-    },
-    {
-        id: 6690920445,
-        name: "Muhammadjon Mashrabov",
-        profession: "frontend",
-        type: "online"
-    },
-    {
-        id: 6134458285,
-        name: "Davronbek Nabijonov",
-        profession: "frontend",
-        type: "offline"
-    },
-    {
-        id: 1306147337,
-        name: "Farrux To'g'onov",
-        profession: "fullstack",
-        type: "offline"
-    },
-    {
-        id: 1771891844,
-        name: "Oqilbek Erkinov",
-        profession: "fullstack",
-        type: "offline"
-    },
-    {
-        id: 6466116037,
-        name: "Dilshod Mahmudov",
-        profession: "fullstack",
-        type: "online"
-    },
-    {
-        id: 2035940312,
-        name: "Fozilov Muzaffar",
-        profession: "designer",
-        type: "offline"
-    }
+    { id: 8393769853, name: "Boboxonov Javohir", profession: "backend" },
+    { id: 8396840695, name: "Janob boshliq", profession: "fullstack", type: "offline" },
+    { id: 8251893506, name: "Janob boshbori", profession: "fullstack", type: "online" },
+    { id: 6917684084, name: "Qodirov Biloliddin", profession: "backend" },
+    //{id: 1417999336,name: "Muslimbek Bostonov",profession: "frontend",type: "offline"},
+    //{id: 6461443178,name: "Davronbek Nazarov",profession: "backend",type: "offline"},
+    //{id: 5259707725,name: "Abdulaziz Komiljonov",profession: "backend",type: "online"},
+    //{id: 8270492933,name: "Yuldoshev Sirojiddin",profession: "backend",type: "online"},
+    //{id: 5817905119,name: "Samandar Qodirov",profession: "frontend",type: "online"},
+    //{id: 6690920445,name: "Muhammadjon Mashrabov",profession: "frontend",type: "online"},
+    //{id: 6134458285,name: "Davronbek Nabijonov",profession: "frontend",type: "offline"},
+    //{id: 1306147337,name: "Farrux To'g'onov",profession: "fullstack",type: "offline"},
+    //{id: 1771891844,name: "Oqilbek Erkinov",profession: "fullstack",type: "offline"},
+    //{id: 6466116037,name: "Dilshod Mahmudov",profession: "fullstack",type: "online"},
+    //{id: 2035940312,name: "Fozilov Muzaffar",profession: "designer",type: "offline"}
 ];
 
 // Admin tekshirish
@@ -135,31 +80,40 @@ async function sendProjects(ctx) {
 
 
 
-            const message1 =
-                `
-👋 Assalomu alaykum ${user.name} va jamoamizning yangi ishtrokchisi! 🎉
+            //          const message1 =
+            //                 `
+            // 👋 Assalomu alaykum ${user.name} va jamoamizning yangi ishtrokchisi! 🎉
 
-Avvalo, sizni jamoamizga qo'shilganingiz bilan samimiy tabriklayman. Oldimizda katta maqsadlar va qiziqarli loyihalar turibdi. Ishonamanki, birgalikda kuchli natijalarga erishamiz.
+            // Avvalo, sizni jamoamizga qo'shilganingiz bilan samimiy tabriklayman. Oldimizda katta maqsadlar va qiziqarli loyihalar turibdi. Ishonamanki, birgalikda kuchli natijalarga erishamiz.
 
-Yaqin kunlarda uchrashuv tashkil qilamiz. Uchrashuv joyi sifatida ofis yoki qulay kafe tanlanadi. Lokatsiya va aniq vaqt alohida yuboriladi.
+            // Yaqin kunlarda uchrashuv tashkil qilamiz. Uchrashuv joyi sifatida ofis yoki qulay kafe tanlanadi. Lokatsiya va aniq vaqt alohida yuboriladi.
 
-Uchrashuvda jamoa bilan tanishamiz, ish tartibi, qoidalar, vazifalar va kelajakdagi rejalarni muhokama qilamiz.
+            // Uchrashuvda jamoa bilan tanishamiz, ish tartibi, qoidalar, vazifalar va kelajakdagi rejalarni muhokama qilamiz.
 
-Barchangizni belgilangan vaqtda ishtirok etishingizni so'rayman. Yangi bosqich muborak bo'lsin! Birgalikda katta natijalarga erishamiz! 🚀
+            // Barchangizni belgilangan vaqtda ishtirok etishingizni so'rayman. Yangi bosqich muborak bo'lsin! Birgalikda katta natijalarga erishamiz! 🚀
 
-`;
+            // `;
 
-            const message2 = `👋 Assalomu alaykum ${user.name} va jamoamizning yangi ishtrokchisi! 🎉
+            //             const message2 = `👋 Assalomu alaykum ${user.name} va jamoamizning yangi ishtrokchisi! 🎉
 
-Avvalo, sizni jamoamizga qo'shilganingiz bilan tabriklayman. Ishonamanki, birgalikda katta loyihalarni amalga oshiramiz va kuchli natijalarga erishamiz.
+            // Avvalo, sizni jamoamizga qo'shilganingiz bilan tabriklayman. Ishonamanki, birgalikda katta loyihalarni amalga oshiramiz va kuchli natijalarga erishamiz.
 
-Sizlar online formatda faoliyat yuritasizlar. Yaqin kunlarda zoom yoki whatsapp orqali online meeting tashkil etib har biringizga loyiha tafsilotlari, ish tartibi, vazifalar va foydalaniladigan platformalar haqida batafsil ma'lumot beriladi.
+            // Sizlar online formatda faoliyat yuritasizlar. Yaqin kunlarda zoom yoki whatsapp orqali online meeting tashkil etib har biringizga loyiha tafsilotlari, ish tartibi, vazifalar va foydalaniladigan platformalar haqida batafsil ma'lumot beriladi.
 
-Har biringizga omad, muvaffaqiyat va unumli ish faoliyatini tilayman. Birgalikda kuchli jamoa bo'lib rivojlanamiz! 🚀\n\nAgar siz Farg'ona viloyatida offline ishlay olaman desangiz @muhammadali_1406 ga murojat qilishingizni so'raymiz`
+            // Har biringizga omad, muvaffaqiyat va unumli ish faoliyatini tilayman. Birgalikda kuchli jamoa bo'lib rivojlanamiz! 🚀\n\nAgar siz Farg'ona viloyatida offline ishlay olaman desangiz @muhammadali_1406 ga murojat qilishingizni so'raymiz`
 
 
 
-            const message = user.type === "online" ? message2 : message1;
+            const message = `Assalomu alaykum!
+
+Avvalo, sinov jarayonida qatnashganingiz va o'zingizni ko'rsatishga harakat qilganingiz uchun katta rahmat. Har bir ishtirokchining harakati va mehnati biz uchun qadrlidir.
+
+Afsuski, ushbu bosqich natijalariga ko'ra siz hozircha jamoamiz tarkibiga qabul qilina olmadingiz. Bu sizning imkoniyatingiz yo'q degani emas. Aksincha, bu tajriba orqali qaysi yo'nalishlarda o'sish kerakligini aniqlab olish mumkin.
+
+Kelajakda bilim va tajribangizni oshirib, yana biz bilan hamkorlik qilish imkoniyati bo'lishiga umid qilamiz.
+
+Sizga rivojlanish, yangi loyihalar va katta muvaffaqiyatlar tilaymiz! 🚀
+` 
 
             await bot.telegram.sendMessage(
                 user.id,
