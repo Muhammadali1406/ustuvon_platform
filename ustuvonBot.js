@@ -153,7 +153,7 @@ Barchangizni belgilangan vaqtda ishtirok etishingizni so'rayman. Yangi bosqich m
 
 Avvalo, sizni jamoamizga qo'shilganingiz bilan tabriklayman. Ishonamanki, birgalikda katta loyihalarni amalga oshiramiz va kuchli natijalarga erishamiz.
 
-Sizlar online formatda faoliyat yuritasizlar. Yaqin kunlarda zoom yoki watsap orqali online meeting tashkil etib har biringizga loyiha tafsilotlari, ish tartibi, vazifalar va foydalaniladigan platformalar haqida batafsil ma'lumot beriladi.
+Sizlar online formatda faoliyat yuritasizlar. Yaqin kunlarda zoom yoki whatsapp orqali online meeting tashkil etib har biringizga loyiha tafsilotlari, ish tartibi, vazifalar va foydalaniladigan platformalar haqida batafsil ma'lumot beriladi.
 
 Har biringizga omad, muvaffaqiyat va unumli ish faoliyatini tilayman. Birgalikda kuchli jamoa bo'lib rivojlanamiz! 🚀\n\nAgar siz Farg'ona viloyatida offline ishlay olaman desangiz @muhammadali_1406 ga murojat qilishingizni so'raymiz`
 
