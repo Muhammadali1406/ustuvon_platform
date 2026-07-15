@@ -81,10 +81,7 @@ async function sendProjects(ctx) {
 
             const message =
                 `
-            👋 Assalomu alaykum ${user.name} va jamoamizning yangi ishtrokchisi! 🎉
-
-            Sizni https://maps.google.com/maps?q=40.517045,71.910444&ll=40.517045,71.910444&z=16 manzilida joylashgan ofisimizga 13:00 da tashrif buyurishingizni so'raymiz. Siz bilan ofisimizda uchrashib, loyiha tafsilotlari, ish tartibi, vazifalar va foydalaniladigan platformalar haqida batafsil ma'lumot beriladi.
-            Ish bo'yicha kelishuv hamda jamoa a'zolari bilan tanishish imkoniyati bo'ladi. Belgilangan muddatdan kechikmay yetib kelishingizni so'raymiz.
+                Uchrashuv vaqti ertaga soat 13:00 da bo'ladi.
             `;
 
             
