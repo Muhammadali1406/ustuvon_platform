@@ -9,17 +9,16 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 // Nomzodlar
 
 const users = [
-    { id: 8251893506, name: "Janob boshbori", profession: "fullstack", type: "online" },
-    //{id: 6466116037,name: "Dilshod Mahmudov",profession: "fullstack",type: "online"},
-    //{id: 6690920445,name: "Muhammadjon Mashrabov",profession: "frontend",type: "online"},
-    //{id: 5817905119,name: "Samandar Qodirov",profession: "frontend",type: "online"},
-    //{id: 8393769853, name: "Boboxonov Javohir", profession: "backend", type: "online" },
-    //{id: 5259707725,name: "Abdulaziz Komiljonov",profession: "backend",type: "online"},
-    //{id: 8270492933,name: "Yuldoshev Sirojiddin",profession: "backend",type: "online"},
-    //{id: 6461443178,name: "Davronbek Nazarov",profession: "backend",type: "offline"},
-    //{id: 6134458285,name: "Davronbek Nabijonov",profession: "frontend",type: "offline"},
-    //{id: 8396840695, name: "Janob boshliq", profession: "fullstack", type: "offline" },
-    //{id: 1306147337,name: "Farrux To'g'onov",profession: "fullstack",type: "offline"},
+    {id: 6466116037,name: "Dilshod Mahmudov",profession: "fullstack",type: "online"},
+    {id: 6690920445,name: "Muhammadjon Mashrabov",profession: "frontend",type: "online"},
+    {id: 5817905119,name: "Samandar Qodirov",profession: "frontend",type: "online"},
+    {id: 8393769853, name: "Boboxonov Javohir", profession: "backend", type: "online" },
+    {id: 5259707725,name: "Abdulaziz Komiljonov",profession: "backend",type: "online"},
+    {id: 8270492933,name: "Yuldoshev Sirojiddin",profession: "backend",type: "online"},
+    {id: 6461443178,name: "Davronbek Nazarov",profession: "backend",type: "offline"},
+    {id: 6134458285,name: "Davronbek Nabijonov",profession: "frontend",type: "offline"},
+    {id: 8396840695, name: "Janob boshliq", profession: "fullstack", type: "offline" },
+    {id: 1306147337,name: "Farrux To'g'onov",profession: "fullstack",type: "offline"},
 ];
 
 // Admin tekshirish
@@ -96,10 +95,10 @@ Platformaning asosiy afzalliklaridan biri — **aqlli test tizimi**. Ushbu tizim
 
 Bu yerda siz oddiy **xodim** emas, balki loyihaning **jamoa a'zosi va hamkori** bo'lasiz. Sizning hissangiz loyiha rivojiga xizmat qiladi va muvaffaqiyatga erishilgach, uning natijasidan boshqalar qatori siz ham manfaatdor bo'lasiz.\n
 
-Biz mas'uliyatli, o'z ustida ishlaydigan va uzoq muddatli maqsadlarni ko'zlaydigan insonlarni izlayapmiz. Agar siz katta loyihaning bir qismi bo'lishni, uni birgalikda qurishni  va kelajakdagi muvaffaqiyatidan ulush olishни istasangiz, sizni jamoamiz safida ko'rishdan mamnun bo'lamiz.\n
+Biz mas'uliyatli, o'z ustida ishlaydigan va uzoq muddatli maqsadlarni ko'zlaydigan insonlarni izlayapmiz. Agar siz katta loyihaning bir qismi bo'lishni, uni birgalikda qurishni  va kelajakdagi muvaffaqiyatidan ulush olishni istasangiz, sizni jamoamiz safida ko'rishdan mamnun bo'lamiz.\n
 
-**Eslatma:** Bu oddiy ishga qabul emas. Bu — birgalikda katta loyiha qurish va uning kelajagini birga yaratish imkoniyatidir. Agar sizning maqsadingiz yuqori maosh va barqaror daromad bo'lsa, ehtimol bu loyiha siz uchun emas. Biz sizni loyihani rivojlantirish va muvaffaqiyatga erishish hamda tushadigan daromadan teng miqdorda ulush olish uchun taklif etamiz istagi bilan qabul qilamiz.\n\n
-Sizni jamoamizga qo'shilishga taklif qilamiz. Agar siz ham biz bilan birga loyihani rivojlantirishni xohlasangiz, iltimos, quyidagi havolaga o'ting va **loyihaga sherik sifatida kiring.\n\n
+**Eslatma:** Bu oddiy ishga qabul emas. Bu — birgalikda katta loyiha qurish va uning kelajagini birga yaratish imkoniyatidir. Agar sizning maqsadingiz yuqori maosh va barqaror daromad bo'lsa, ehtimol bu loyiha siz uchun emas. Biz sizni loyihani rivojlantirish va muvaffaqiyatga erishish hamda tushadigan daromadan teng miqdorda ulush olish uchun taklif etamiz.\n\n
+Sizni jamoamizga qo'shilishga taklif qilamiz. Agar siz ham biz bilan birga loyihani rivojlantirishni xohlasangiz, iltimos, quyidagi havolaga o'ting va **loyihaga sherik sifatida kiring.\n\n havola: https://t.me/ustuvonWeb
 
             `;
 
